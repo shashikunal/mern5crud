@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --bg-base-color: #000aaa;
+}
+body {
+  background-color: #efefef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbarBlock {
+  width: 100%;
+  background: var(--bg-base-color);
+  color: #fff;
+  height: 70px;
+}
+
+#navbarBlock > article {
+  height: inherit;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+}
+
+.logoBlock a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.menuBlock nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.menuBlock nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  padding: 10px 20px;
+}
+
+.menuBlock nav ul li a:hover {
+  background-color: #fff;
+  color: #000aaa;
+  transition: ease all 0.7s;
+}
+
+.formBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.formBlock h2 {
+  color: #000aaa;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.formBlock form {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+}
+.formBlock form label {
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.formBlock form input[type="text"],
+.formBlock form select {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.formBlock form input[type="radio"] {
+  margin: 0 6px;
+}
+
+.formBlock form button {
+  width: 100%;
+  padding: 12px 20px;
+  background: var(--bg-base-color);
+  color: #fff;
+  border: 1px solid var(--bg-base-color);
+  margin: 20px 0;
+  border-radius: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formBlock form button:hover {
+  background: #fff;
+  color: var(--bg-base-color);
+  border: 1px solid var(--bg-base-color);
+}
