@@ -1,7 +1,8 @@
 import React from "react";
+import AllEmployees from "./../components/employeesComponent/AllEmployees";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <AllEmployees />;
 };
 
 export default Home;
